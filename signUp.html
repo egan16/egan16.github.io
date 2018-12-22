@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--link to google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!--font awesome icons link-->
+
+    <title>PH Sign Up</title>
+
+</head>
+
+<body>
+
+    <!--nav bar start-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-sm navbar-dark sticky-top myNav">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mycollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="homepage.html" class="navbar-brand">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <div class="collapse navbar-collapse" id="mycollapse">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="homepage.html#whatson" class="nav-link">WHAT'S ON</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signIn.html" class="nav-link">SIGN IN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signUp.html" class="nav-link">SIGN UP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--nav bar end-->
+
+    <!--start of form-->
+    <form action="#" method="post">
+
+        <div class="container">
+
+            <!--START OF NAME ROW-->
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <h1 class="signUpHeading">Sign Up</h1>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-6">
+                    <label for="author">*First Name:<br>
+                        <input class="borderBox" type="text" id="author" name="author" placeholder="ENTER YOUR FIRST NAME" />
+
+                        <h3 class="two errors" id="authorError"></h3>
+                    </label>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <label for="twitterName">*Last Name:<br>
+
+                        <input class="borderBox" type="text" id="twitterName" name="twittername" placeholder="ENTER YOUR LAST NAME" />
+
+                        <h3 class="two errors" id="twitterNameError"></h3>
+
+                    </label>
+                </div>
+
+            </div>
+            <!--END OF NAME ROW-->
+
+
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-12">
+                    <label class="memberSection">Membership Type:<br>
+
+                        <input class="radio" type="radio" name="genre" value="top story" checked />Child (2-16)
+
+                        <input class="radio" type="radio" name="genre" value="sport" />Adult (16-64)
+
+                        <input class="radio" type="radio" name="genre" value="business" />OAP (65+)
+
+                        <input class="radio" type="radio" name="genre" value="entertainment" />Student
+                    </label>
+                </div>
+            </div>
+
+
+            <!--start of username&password div-->
+            <div class="row">
+
+                <div class="col-sm-12 col-lg-6">
+                    <label for="author">*Username:<br>
+                        <input class="borderBox" type="text" id="author" name="author" placeholder="ENTER YOUR USRERNAME" />
+
+                        <h3 class="two errors" id="authorError"></h3>
+                    </label>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <label for="twitterName">*Password:<br>
+
+                        <input class="borderBox" type="text" id="twitterName" name="twittername" placeholder="ENTER YOUR PASSWORD" />
+
+                        <h3 class="two errors" id="twitterNameError"></h3>
+
+                    </label>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+
+                    <p class="requiredField">*Required Field</p>
+
+                </div>
+            </div>
+
+            <div class="row submit_reset">
+                <div class="col-sm-12 col-lg-12">
+
+                    <input type="submit" class="button submitbtn centered" id="submit" name="submit" value="submit" id="form_button" />
+                </div>
+                <!--submit button-->
+
+                <div class="col-sm-12 col-lg-12">
+                    <input type="reset" class="button resetbtn centered" id="reset" name="reset" value="reset" id="form_button" />
+                    <!--submit button-->
+
+                </div>
+                <!--end of submit&reset buttons div-->
+            </div>
+        </div>
+    </form>
+    <!--end of form-->
+
+    <div class="container-fluid">
+        <!-- Footer -->
+        <footer class="page-footer font-small cyan darken-3">
+
+            <!-- Footer Elements -->
+            <div>
+
+                <!-- Grid row-->
+                <div class="row mySocial">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+
+                            <!-- Facebook -->
+                            <a href="#" class="navbar-brand left">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a href="#" class="navbar-brand centered">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <!--Instagram-->
+                            <a href="#" class="navbar-brand right">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="dashboard.html"> Picture House</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    <!--end of footer-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

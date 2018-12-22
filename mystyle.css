@@ -1,0 +1,544 @@
+/* HOMEPAGE STARTS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #EDF5E1;
+    background-color: #05386B;
+}
+
+.container {}
+
+/*nav bar start*/
+.navbar-dark .navbar-brand {
+    color: #EDF5E1;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+.myNav {
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #EDF5E1;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #EDF5E1;
+    border-color: #EDF5E1;
+}
+
+.myNavItemRight {
+    float: right;
+}
+
+/*nav bar end*/
+
+/*start of carousel*/
+
+
+.carousel_colour {
+    color: #EDF5E1;
+    background-color: #05386B;
+    border-radius: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.carousel-indicators .active {
+    background-color: #05386B;
+}
+
+.carousel-indicators li {
+    background-color: #0F59A1;
+}
+
+/*end of carousel*/
+
+.rowa {
+    position: relative;
+    text-align: center;
+    font-size: 4em;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.rowlabel {
+    font-weight: 500;
+}
+
+/*start of whats on & cards*/
+.cardSection {
+    background-image: url(images/stars.jpg);
+    /*background-color: #79A7D3;*/
+    border-radius: 0px 0px 1em 1em;
+    padding-top: 15px;
+    padding-bottom: 3em;
+    margin-bottom: 15px;
+}
+
+.rowb {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*whats on*/
+.col_ab {
+    font-weight: 400;
+    position: relative;
+    font-size: 4em;
+    padding-top: 15px;
+}
+
+.col_bb {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+
+.dropdown {
+    margin: 15px;
+    font-size: 2.5em;
+}
+
+.btn {
+    font-size: .6em;
+}
+
+.btn-secondary.dropdown-toggle {
+    color: #EDF5E1;
+    background-color: #05386B;
+    border-color: #4e555b;
+}
+
+.show > .btn-secondary.dropdown-toggle {
+    color: #EDF5E1;
+    background-color: #05386B;
+    border-color: #4e555b;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+    color: #EDF5E1;
+    background-color: #05386B;
+    border-color: #4e555b;
+}
+
+.dropdown-menu {
+    font-size: .6em;
+}
+
+.dropdown-menu.show {
+    background-color: #05386B;
+}
+
+.dropdown-item:hover {
+    background-color: #5CDB95;
+    color: #EDF5E1;
+}
+
+/*start of card*/
+.rowc {}
+
+.card {
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 2em;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+    background-color: #05386B;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card-title {
+    font-size: 2em;
+}
+
+.modal_btn {
+    position: absolute;
+    right: 20px;
+    bottom: 185px;
+    font-size: 2em;
+    background-color: #5CDB95;
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #EDF5E1;
+}
+
+.modal_btn:hover {
+    color: #82857E;
+}
+
+.time_btn {
+    font-size: 1em;
+    background-color: #5CDB95;
+    /*margin-right: 5px;*/
+
+}
+
+/*end of card*/
+
+/*start of modal*/
+
+.modal-content {
+    background-color: #5CDB95;
+}
+
+.rowModalA {
+    padding-bottom: 30px;
+}
+
+.modalHeading {
+    font-weight: 300;
+    padding-top: 35px;
+}
+
+.starRating {
+    padding-top: 30px;
+}
+
+.star {
+    width: 12%;
+    height: auto;
+}
+
+.emptyStar {
+    opacity: 0.5;
+}
+
+.modalPara {
+    font-size: 1.3em;
+}
+
+.modalHeadingBottom {
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*end of modal*/
+
+/*start of trailer section*/
+
+.FTHeading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.trailerVideo {
+    margin-bottom: 30px;
+}
+
+.trailerTitle {
+    margin-bottom: 60px;
+}
+
+/*end of trailer section*/
+
+/*stat of sign section*/
+
+.signSection {
+    background-image: url(images/stars.jpg);
+    /*background-color: #79A7D3;*/
+    border-radius: 1em 1em 0px 0px;
+    padding-top: 15px;
+    padding-bottom: 14em;
+}
+
+.rowe_b {
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.signinbtn {
+    font-size: 2em;
+    background-color: #05386B;
+    padding-left: 16px;
+    padding-right: 17px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.signupbtn {
+    font-size: 2em;
+    background-color: #05386B;
+    margin-top: 125px;
+    margin-bottom: 15px;
+}
+
+/*end of sign section*/
+
+/*start of footer*/
+
+.mySocial {
+    background-color: #011B35;
+}
+
+/*end of footer*/
+
+a:link {
+    color: #EDF5E1;
+    ;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #EDF5E1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bbc1b2;
+}
+
+/* //////////////HOMEPAGE ENDS//////////////// */
+
+/* //////////////SIGN UP STARTS////////////// */
+
+.formHeading {
+    padding-left: 15px;
+}
+
+.row1 {
+    font-size: 18px;
+
+}
+
+.row2 {
+    font-size: 18px;
+}
+
+.row3 {
+    font-size: 18px;
+    padding: 0 0 15px 0;
+    margin-bottom: 30px;
+}
+
+.row4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    float: right;
+}
+
+.row6 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin: 10px;
+    padding: 10px 0 5px 0;
+}
+
+.errors {
+    font-size: 14px;
+    color: #ECF90C;
+    letter-spacing: 2px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.radio {
+    margin: 10px;
+}
+
+.email {
+    float: right;
+    width: 45%;
+}
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #EDF5E1;
+    color: #EDF5E1;
+    font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 10px 0 5px 0;
+    padding: 5px 0 5px 0;
+    text-transform: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: 15px;
+}
+
+input[type='text']:focus,
+[type='email']:focus,
+textarea:focus {
+    outline: none;
+    padding: 0 0 0.875em 0;
+
+}
+
+.row5 {
+    text-align: center;
+    margin: 15px;
+}
+
+.button {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 19px;
+    line-height: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #EDF5E1;
+    border: 2px solid transparent;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #5CDB95;
+
+}
+
+#form_button:hover {
+    background: lightgray;
+    color: #ffffff;
+}
+
+#form_button {
+    padding: 15px 25px;
+}
+
+.signUpHeading {
+    font-weight: 300;
+    position: relative;
+    font-size: 3em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.row5 {
+    padding-bottom: 100px
+}
+
+.memberSection {
+    padding-bottom: 3em;
+}
+
+.requiredField {
+    margin-bottom: 3em;
+}
+
+.submit_reset {
+    margin-bottom: 60px;
+}
+
+.submitbtn {
+    padding-left: 16px;
+    padding-right: 17px;
+    margin-bottom: 15px;
+}
+
+.resetbtn {
+    margin-bottom: 15px;
+}
+
+/*////////////SIGN UP ENDS////////////////*/
+
+/*////////////DASHBOARD STARTS////////////////*/
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: #5CDB95;*/
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+.sidebar a {
+    padding: 12px 8px 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #EDF5E1;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #818181;
+    background-color: #5CDB95;
+    border-radius: 0 12px 12px 0;
+}
+
+.main {
+    margin-left: 180px;
+    padding: 0px 10px;
+}
+
+.dashHeading {
+    margin-top: 30px;
+}
+
+.salesHeadings {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.chartRow {
+    margin-bottom: -35px;
+}
+
+
+
+/*////////////DASHBOARD ENDS////////////////*/

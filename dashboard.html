@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--link to google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!--font awesome icons link-->
+
+    <title>PH Dashboard</title>
+
+</head>
+
+<body>
+
+    <!--nav bar start-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 px-2">
+                <nav class="navbar navbar-expand-sm navbar-dark sticky-top myNav">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mycollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="homepage.html" class="navbar-brand">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <div class="collapse navbar-collapse" id="mycollapse">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="homepage.html#whatson" class="nav-link">WHAT'S ON</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signIn.html" class="nav-link">SIGN IN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signUp.html" class="nav-link">SIGN UP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--nav bar end-->
+
+    <div class="sidebar">
+        <a href="#"><i class="fas fa-film"></i> Movies</a>
+        <a href="#"><i class="fas fa-money-bill-alt"></i> Sales</a>
+        <a href="#"><i class="fas fa-user"></i> Members</a>
+        <a href="#"><i class="fas fa-user-tie"></i> Staff</a>
+    </div>
+
+    <div class="main">
+        <div class="row">
+            <h1 class="dashHeading">Sales</h1>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 ">
+               <h3 class="salesHeadings">Ticket Prices</h3>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Type</th>
+                            <th scope="col">Child</th>
+                            <th scope="col">Adult</th>
+                            <th scope="col">OAP</th>
+                            <th scope="col">Student</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2D</th>
+                            <td>€4.50</td>
+                            <td>€6.50</td>
+                            <td>€5.00</td>
+                            <td>€5.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3D</th>
+                            <td>€5.50</td>
+                            <td>€7.50</td>
+                            <td>€6.00</td>
+                            <td>€6.00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">IMAX</th>
+                            <td>€6.50</td>
+                            <td>€8.50</td>
+                            <td>€7.00</td>
+                            <td>€7.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="col-sm-12 col-lg-6 ">
+               <h3 class="salesHeadings">Confectionary Prices</h3>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Type</th>
+                            <th scope="col">Small</th>
+                            <th scope="col">Medium</th>
+                            <th scope="col">Large</th>
+                            <th scope="col">InStock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Drinks</th>
+                            <td>€3.45</td>
+                            <td>€4.45</td>
+                            <td>€5.45</td>
+                            <td><a href="#" class="badge badge-success">YES</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sweets</th>
+                            <td>€2.00</td>
+                            <td>€3.00</td>
+                            <td>€4.00</td>
+                            <td><a href="#" class="badge badge-danger">NO</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Popcorn</th>
+                            <td>€3.55</td>
+                            <td>€4.55</td>
+                            <td>€5.55</td>
+                            <td><a href="#" class="badge badge-success">YES</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+
+        <div class="row chartRow">
+            <div class="col-sm-12 col-lg-6 ">
+                <h3 class="salesHeadings">Ticket Sales</h3>
+                <img src="images/pieChart.png" width="auto" height="70%" alt="Responsive image">
+            </div>
+            <div class="col-sm-12 col-lg-6 ">
+                <h3 class="salesHeadings">Confectionary Sales</h3>
+                <img src="images/barChart.png" width="auto" height="70%" alt="Responsive image">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid">
+        <!-- Footer -->
+        <footer class="page-footer font-small cyan darken-3">
+
+            <!-- Footer Elements -->
+            <div>
+
+                <!-- Grid row-->
+                <div class="row mySocial">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+
+                            <!-- Facebook -->
+                            <a href="#" class="navbar-brand left">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a href="#" class="navbar-brand centered">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <!--Instagram-->
+                            <a href="#" class="navbar-brand right">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="dashboard.html"> Picture House</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    <!--end of footer-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
